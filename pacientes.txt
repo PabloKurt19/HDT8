@@ -1,0 +1,6 @@
+Pablo Ortiz, dengue, C
+Carmen Sarmientos, dolores de parto, D
+Juan Perez, fractura de pierna, A
+Maria Ramirez, apendicitis, E
+Lorenzo Toledo, chikunguya, B
+Pedro García, neumonia, C
