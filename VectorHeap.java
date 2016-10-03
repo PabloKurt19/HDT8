@@ -164,3 +164,40 @@ public class VectorHeap<E extends Comparable<E>> implements PriorityQueue<E>{
 		if (data.size() > 1) pushDownRoot(0);
 		return minVal;
 	}
+    
+    /**
+     * @description devulve el primero nodo 
+     * @return Element
+     */
+    @Override
+    public E getFirst() {
+        return data.firstElement();
+    }
+
+    /**
+     * @description metodo no utilizado de la clase vector
+     * @return 
+     */
+    @Override
+    public boolean isEmpty() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    /**
+     * @description metodo no utilizado de la clase vector
+     * @return 
+     */
+    @Override
+    public int size() {
+        return data.size();
+    }
+
+    /**
+     * @description metodo no utilizado de la clase vector
+     * @return 
+     */
+    @Override
+    public void clear() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+}
